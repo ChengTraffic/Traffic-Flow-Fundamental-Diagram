@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Citation: Cheng, Q., Liu, Z., Lin, Y., Zhou, X., 2021. An s-shaped three-parameter (S3) traffic stream model with consistent car following relationship. Under review with Transportation Research Part B.
+# Citation: Cheng, Q., Liu, Z., Lin, Y., Zhou, X., 2021. An s-shaped three-parameter (S3) traffic stream model with consistent car following relationship. Under review.
 
 import os
 import numpy as np
