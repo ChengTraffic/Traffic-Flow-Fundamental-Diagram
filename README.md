@@ -1,13 +1,34 @@
-# This repository is used for calibrating speed-density fundamental diagram.
+| In mathematics and transportation engineering, traffic flow is the study of interactions between travellers (including pedestrians, cyclists, drivers, and their vehicles) and infrastructure (including highways, signage, and traffic control devices), with the aim of understanding and developing an optimal transport network with efficient movement of traffic and minimal traffic congestion problems. <https://en.wikipedia.org/wiki/Traffic_flow> |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
-#### Citation format: Cheng, Q., Liu, Z., Lin, Y., Zhou, X., 2021. An s-shaped three-parameter (S3) traffic stream model with consistent car following relationship. Under review.
+>   This repository aims to provide open-source codes and test data sets for
+>   calibrating a wide range of speed-density fundamental diagrams.
 
-An s-shaped three-parameter (S3) fundamental diagram model expressed by $v=\frac{{{v}_{f}}}{{{\left[ 1+{{\left( {k}/{{{k}_{c}}}\; \right)}^{m}} \right]}^{{2}/{m}\;}}}$, where ${{v}_{f}}$, ${{k}_{c}}$, and $m$ are the free-flow speed, the critical density, and the flatness-of-curve parameter respectively, is proposed in this study. 
+>   ![](media/20cce12844c72d8b4ee7cc2b42afa109.png)
 
-![F1.jpg](attachment:F1.jpg)
-Figure 1: An illustration of the S3 model when vf = 110 km/hr and kc = 25 veh/km/ln
+In particular, a s-shaped three-parameter (S3) fundamental diagram model is
+proposed where vf, kc and m are the free-flow speed, the critical density, and
+the flatness-of-curve parameter respectively.
 
-### Some calibration results are shown as follows:
+>   ![](media/F1.jpg)
 
-![F2.jpg](attachment:F2.jpg)
+Figure 1: An illustration of the S3 model when *vf* = 110 km/hr and *kc* = 25
+veh/km/ln
+
+Some calibration results are shown as follows:
+
+| ![](media/c1d20c9d81998bb3a0f45c25b3d70de7.png) (a) speed-density plane | ![](media/0dc7dbfe234bee6405ba41fe0ada9bd6.png) (b) speed-flow plane             |
+|-------------------------------------------------------------------------|----------------------------------------------------------------------------------|
+| ![](media/f82f9741d3834faa38e6d36198dc5251.png) (c) flow-density plane  | ![](media/8772373878b88e8a0919c1e51a7cc2d9.png) (d) 3D flow-speed-density plane  |
+
 Figure 2: Empirical data vs. S3 model
+
+>   **Reference:**
+
+>   Cheng, Q., Liu, Z., Lin, Y., Zhou, X., 2021. An s-shaped three-parameter
+>   (S3) traffic stream model with consistent car following relationship. Under
+>   review.
+
+>   [(PDF) An s-shaped three-dimensional (S3) traffic stream model with
+>   consistent car following relationship
+>   (researchgate.net)](https://www.researchgate.net/publication/341104050_An_s-shaped_three-dimensional_S3_traffic_stream_model_with_consistent_car_following_relationship)
