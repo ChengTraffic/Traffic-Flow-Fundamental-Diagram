@@ -26,8 +26,8 @@ Figure 2: Empirical data vs. S3 model
 >   **Reference:**
 
 >   Cheng, Q., Liu, Z., Lin, Y., Zhou, X., 2021. An s-shaped three-parameter
->   (S3) traffic stream model with consistent car following relationship. Under
->   review.
+>   (S3) traffic stream model with consistent car following relationship. Transportation Research Part B, 153, 246-271. 
+>   https://www.sciencedirect.com/science/article/pii/S0191261521001715
 
 >   [(PDF) An s-shaped three-dimensional (S3) traffic stream model with
 >   consistent car following relationship
